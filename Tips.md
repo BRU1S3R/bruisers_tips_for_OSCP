@@ -53,7 +53,13 @@ git clone https://github.com/worawit/MS17-010.git
 
 ### Buffer overflow woes
 ```bash
-When the time comes to learn BO just stick to the commands below. It is easy to overcomplicate things. Doing this you can easily finish the BO on the test in 30-60 minutes.
+When the time comes to learn BO just stick to the commands below. It is easy to overcomplicate things. 
+Doing this you can easily finish the BO on the test in 30-60 minutes.
+
+PWK does an absolute horrible job teaching BO. Therefore pay 10 bucks to use tryhackme.com for a month and
+it is much easier to learn.
+https://tryhackme.com/room/bufferoverflowprep
+If anyone needs help, I can walk you through it in an hour and you will be G2G.
 
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 3000
 !mona config -set workingfolder c:\mona\bruiser
