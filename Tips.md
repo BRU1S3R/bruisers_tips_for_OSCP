@@ -26,6 +26,18 @@ filezilla comes in handy just make sure to check the box that allows you to see 
 Empire is great for pivoting (Even though you wont be doing it much in the labs)
 sudo apt-get install powershell-empire
 ```
+##### Exercises for 5 bonus points
+```bash
+If you do all of the required exercises you get 5 bonus points for the test. Is it worth it? Probably not.
+I did it, because I wanted to get everything out of the PWK. It took me about 150-170 hours and about 200 pages of report.
+Most of the stuff you will be doing is not related to the test much. So... Yes its good to learn, but do what you will.
+You will also need to write 10 reports on the lab machines. I think this is a great way to take notes and I basically did for my 
+40+ roots.
+I have run into corruptions with cherrytree I do not recommend. 
+Cool kids run joplin
+I just copied my screen shots and took all my notes in word, and uploaded to the cloud. I found that to be the safest and easiest.
+All my notes are on github, and I have some private notes that have sensitive answers. 
+```
 ##### Eternal Blue
 ```bash
 You will be challenged to run most things without metasploit. Setting up eternal blue and samba cry was easiest for me on a seperate python 2 only box.
