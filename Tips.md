@@ -25,6 +25,16 @@ filezilla comes in handy just make sure to check the box that allows you to see 
 
 Empire is great for pivoting (Even though you wont be doing it much in the labs)
 sudo apt-get install powershell-empire
+
+Getting samba ready
+edit you /etc/samba/smb.conf
+add server min protocol = NT1 under global settings as seen below
+
+#======================= Global Settings =======================
+
+[global]
+server min protocol = NT1
+
 ```
 ### Exercises for 5 bonus points
 ```bash
@@ -95,3 +105,4 @@ sudo apt-get install gcc
 *I installed some extra stuff*
 sudo apt-get install libsctp-dev
 ```
+
