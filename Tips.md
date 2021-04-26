@@ -1,4 +1,4 @@
-##### Setting up your box
+### Setting up your box
 ```bash
 You have to use Kali Linux in the PWK and OSCP. You can download the .iso file or use the emailed VMware specific file.
 I have done both and they both work just fine.
@@ -26,7 +26,7 @@ filezilla comes in handy just make sure to check the box that allows you to see 
 Empire is great for pivoting (Even though you wont be doing it much in the labs)
 sudo apt-get install powershell-empire
 ```
-##### Exercises for 5 bonus points
+### Exercises for 5 bonus points
 ```bash
 If you do all of the required exercises you get 5 bonus points for the test. Is it worth it? Probably not.
 I did it, because I wanted to get everything out of the PWK. It took me about 150-170 hours and about 200 pages of report.
@@ -38,7 +38,7 @@ Cool kids run joplin
 I just copied my screen shots and took all my notes in word, and uploaded to the cloud. I found that to be the safest and easiest.
 All my notes are on github, and I have some private notes that have sensitive answers. 
 ```
-##### Eternal Blue
+### Eternal Blue
 ```bash
 You will be challenged to run most things without metasploit. Setting up eternal blue and samba cry was easiest for me on a seperate python 2 only box.
 python2 is a bit tricky to set up because it has been discontinued. However this will work smooth.
@@ -51,7 +51,7 @@ pip install impacket
 git clone https://github.com/worawit/MS17-010.git
 ```
 
-##### Buffer overflow woes
+### Buffer overflow woes
 ```bash
 When the time comes to learn BO just stick to the commands below. It is easy to overcomplicate things. Doing this you can easily finish the BO on the test in 30-60 minutes.
 
