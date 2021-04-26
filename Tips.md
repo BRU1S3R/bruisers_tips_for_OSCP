@@ -4,7 +4,7 @@ You have to use Kali Linux in the PWK and OSCP. You can download the .iso file o
 I have done both and they both work just fine.
 
 They say that it is because of the touchiness of the Buffer Overflow exploit in the OSCP test.
-Ive done it, and it's pretty straight forward and is nothing to worry about. NO issues with a standard updated .iso image.
+I've done it, and it's pretty straight forward and is nothing to worry about. NO issues with a standard updated .iso image.
 
 Get your .iso of your choice (When upgrading, your terminal links will break. Here is the fix)
     1  sudo apt update -y && sudo apt upgrade -y
@@ -40,7 +40,7 @@ All my notes are on github, and I have some private notes that have sensitive an
 ```
 ### Eternal Blue
 ```bash
-You will be challenged to run most things without metasploit. Setting up eternal blue and samba cry was easiest for me on a seperate python 2 only box.
+You will be challenged to run most things without metasploit. Setting up eternal blue and samba cry was easiest for me on a separate python 2 only box.
 python2 is a bit tricky to set up because it has been discontinued. However this will work smooth.
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
 python get-pip.py
@@ -72,8 +72,8 @@ BAD CHARS
 ```
 ##### GCC
 ```bash
-You will often need to complie an exploit and many times GCC will not be on the victim box. You can download the libraries to do so but
-I got SO SICK OF THE ERRORS trying to compile for x86 on x64 that I just downloaded seperate VM's such as centos and ubuntu 11 to compile on
+You will often need to compile an exploit and many times GCC will not be on the victim box. You can download the libraries to do so but
+I got SO SICK OF THE ERRORS trying to compile for x86 on x64 that I just downloaded separate VM's such as centos and ubuntu 11 to compile on
 then wget them over to the victim. SO MUCH EASIER this way.
 But if you want to test your luck here is the basics on Kali
 sudo apt install default-libmysqlclient-dev default-libmysqld-dev
